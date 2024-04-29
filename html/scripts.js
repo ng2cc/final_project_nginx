@@ -1,5 +1,5 @@
 function send(type) {
-  const SERVER_IP = `http://${WAS_IP}:3000/`;
+  const SERVER_IP = `http://${WAS_IP}/`;
   switch (type) {
     case 'search':
       let name = document.querySelector("input[name='name']").value;
