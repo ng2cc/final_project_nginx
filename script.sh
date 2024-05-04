@@ -1,3 +1,3 @@
-sed -i "s/WAS_IP = '192.168.111.21';/WAS_IP = '${WAS_IP}';/g" /usr/share/nginx/html/config/config.js
+sed -i "s/WAS_IP = 'nodejs-alb-589175880.ap-northeast-1.elb.amazonaws.com';/WAS_IP = '${WAS_IP}';/g" /usr/share/nginx/html/config/config.js
 
 nginx -g "daemon off;"
